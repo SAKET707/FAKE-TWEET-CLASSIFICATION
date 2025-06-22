@@ -15,13 +15,10 @@ This project builds a binary classification model to distinguish between **real*
 - **Model**: Bernoulli Naive Bayes (`BernoulliNB`)
 - **Accuracy**: `81.78%`
 - **Classification Report**:
-            `precision` `recall` `f1-score`   
+              precision    recall  f1-score
 
-       0       0.81      0.89      0.85      
-       1       0.83      0.73      0.78     
-
-*Class `0` = Real tweet, Class `1` = Fake tweet*
-
+           0       0.81      0.89      0.85
+           1       0.83      0.73      0.78
 ---
 
 ## 📦 Feature Engineering
