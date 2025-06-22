@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Fake Tweet Classifier
+#  Fake Tweet Classifier
 
 A machine learning-based classifier to detect potentially **fake or misleading tweets** using linguistic patterns, special tokens, and text analysis. This project leverages **Bernoulli Naive Bayes** with **TF-IDF** features and engineered metadata signals.
 
@@ -15,7 +15,7 @@ This project builds a binary classification model to distinguish between **real*
 - **Model**: Bernoulli Naive Bayes (`BernoulliNB`)
 - **Accuracy**: `81.78%`
 - **Classification Report**:
-           precision    recall  f1-score   
+            `precision` `recall` `f1-score`   
 
        0       0.81      0.89      0.85      
        1       0.83      0.73      0.78     
