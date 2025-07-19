@@ -1,5 +1,8 @@
 import streamlit as st
 from prediction_helper import predict
+import nltk
+nltk.download('punkt')
+
 
 st.title("Fake Tweet Classifier")
 
