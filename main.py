@@ -6,7 +6,7 @@ from nltk.data import find
 try:
     find('tokenizers/punkt_tab')
 except LookupError:
-    nltk.download('punkt') 
+    nltk.download('punkt_tab') 
 
 from nltk.tokenize import word_tokenize
 
