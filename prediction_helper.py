@@ -8,7 +8,7 @@ from nltk.data import find
 try:
     find('tokenizers/punkt_tab')
 except LookupError:
-    nltk.download('punkt') 
+    nltk.download('punkt_tab') 
 
 import unicodedata
 from nltk.tokenize import sent_tokenize,word_tokenize
