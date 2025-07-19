@@ -4,7 +4,10 @@ import pandas as pd
 import re
 
 import nltk
-nltk.download('punkt')
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
 
 import unicodedata
 from nltk.tokenize import sent_tokenize,word_tokenize
