@@ -2,10 +2,11 @@ import streamlit as st
 from prediction_helper import predict
 
 import nltk
+from nltk.data import find
 try:
-    nltk.data.find('tokenizers/punkt')
+    find('tokenizers/punkt_tab')
 except LookupError:
-    nltk.download('punkt')
+    nltk.download('punkt') 
 
 from nltk.tokenize import word_tokenize
 
