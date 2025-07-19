@@ -13,6 +13,12 @@ try:
 except LookupError:
     nltk.download('stopwords')
 
+
+try:
+    find('corpora/wordnet')
+except LookupError:
+    nltk.download('wordnet')
+
 from nltk.tokenize import word_tokenize
 
 
