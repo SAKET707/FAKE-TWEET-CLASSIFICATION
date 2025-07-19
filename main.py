@@ -7,8 +7,14 @@ try:
     find('tokenizers/punkt_tab')
 except LookupError:
     nltk.download('punkt_tab') 
+    
+try:
+    find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords')
 
 from nltk.tokenize import word_tokenize
+
 
 st.title("Fake Tweet Classifier")
 
