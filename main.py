@@ -1,8 +1,13 @@
 import streamlit as st
 from prediction_helper import predict
-import nltk
-nltk.download('punkt')
 
+import nltk
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+
+from nltk.tokenize import word_tokenize
 
 st.title("Fake Tweet Classifier")
 
