@@ -10,6 +10,11 @@ try:
 except LookupError:
     nltk.download('punkt_tab') 
 
+try:
+    find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords')
+
 import unicodedata
 from nltk.tokenize import sent_tokenize,word_tokenize
 from collections import Counter
