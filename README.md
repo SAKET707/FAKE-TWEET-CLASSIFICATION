@@ -1,7 +1,7 @@
 #  Fake Tweet Classifier
 
 A machine learning-based classifier to detect potentially **fake or misleading tweets** using linguistic patterns, special tokens, and text analysis. This project leverages **Bernoulli Naive Bayes** with **TF-IDF** features and engineered metadata signals.
-
+STREAMLIT URL : https://fake-tweet-classification-by-saket.streamlit.app/
 ---
 
 ## 🚀 Overview
